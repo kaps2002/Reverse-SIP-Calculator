@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+#heading{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+#heading h1{
+    font-size: 75px;
+}
+#heading h3{
+    font-size: 35px;
+}
+#conti{
+    background-image: url(../conback.jpeg);
+    padding-bottom: 20px;
+}
+#cont{
+    padding:35px 0 35px 0 ; margin-left: 16%; margin-right: 16%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px 10% 0 10%;
+    /* background-color:gray; */
+    padding: 10px 0 10px 10px;
+    border-radius: 15px;
+    /* border: 2px solid gray; */
+}
+form{
+    padding-top: -100px;
+    width: 90%;
+    max-width: 600px;
+}
+#input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    outline:0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding:10px;
+    background: transparent;
+    transition: 0.2s;
+    color: #FFF;
+}
+#sub{
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 15px;
+    margin-left: 40%;
+}
+input:focus~label, input:valid~label,textarea:valid~label,textarea:focus~label{
+    top: -35px;
+    font-size: 13px;
+    color: yellow;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#sub:hover{
+    box-shadow: 0.5px 0.5px 4px 2px rgba(255, 255, 255, 0.671);
+}
+#sub:focus{
+    color: yellow;
+}
