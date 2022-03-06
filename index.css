@@ -5,6 +5,7 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: aliceblue;
+    line-height:40px;
 }
 #heading h1{
     font-size: 75px;
@@ -12,12 +13,14 @@ body{
 #heading h3{
     font-size: 35px;
 }
-#conti{
-    background-image: url(../conback.jpeg);
-    padding-bottom: 20px;
+#heading h1 span{
+    transform: scale(-1,1);
 }
 #cont{
-    padding:35px 0 35px 0 ; margin-left: 16%; margin-right: 16%;
+    
+    padding:35px 0 35px 0 ; 
+    margin-left: 16%; 
+    margin-right: 16%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -28,11 +31,12 @@ body{
     /* border: 2px solid gray; */
 }
 form{
-    padding-top: -100px;
+    margin: 10px;
     width: 90%;
     max-width: 600px;
 }
 #input-group{
+    
     margin-bottom: 30px;
     position: relative;
 }
@@ -46,6 +50,8 @@ input{
     font-size: 15px;
 }
 label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
     height: 100%;
     position:absolute;
     top: 0;
@@ -81,3 +87,4 @@ input::-webkit-inner-spin-button {
 #sub:focus{
     color: yellow;
 }
+
