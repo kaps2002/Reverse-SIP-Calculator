@@ -8,14 +8,15 @@ function SIP(){
     var r=Math.round(monthly);
     if (monthly<500){
         document.getElementById('cyellow').innerHTML="Monthly ";
-        document.getElementById('invest').innerHTML="Investment- ";
-        document.getElementById('rupee').innerHTML= "₹";
-        document.getElementById('month').innerHTML=500 + "/-";
+        document.getElementById('invest').innerHTML="Investment- ₹" + 500 + "/-" ;
+        document.getElementById('tyellow').innerHTML="Total ";
+        document.getElementById('total').innerHTML="Investment- ₹" + 500*time + "/-" ;
     }
     else{
         document.getElementById('cyellow').innerHTML="Monthly ";
-        document.getElementById('invest').innerHTML="Investment- ";
-        document.getElementById('rupee').innerHTML= "₹";
-        document.getElementById('month').innerHTML= r + "/-";
+        document.getElementById('invest').innerHTML="Investment- ₹" + r + "/-" ;
+        document.getElementById('tyellow').innerHTML="Total ";
+        document.getElementById('total').innerHTML="Investment- ₹" + r*time + "/-" ;    
     }
+
 }

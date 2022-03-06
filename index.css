@@ -87,4 +87,6 @@ input::-webkit-inner-spin-button {
 #sub:focus{
     color: yellow;
 }
-
+#show{
+    line-height: 30px;
+}
